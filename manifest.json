@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cookie Clicker Companion",
+  "description": "This extension helps automate the strenuous cookie clicking process",
+  "version": "1.0",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://orteil.dashnet.org/cookieclicker/*"],
+      "css": [],
+      "js": ["jquery-1.10.2.min.js", "clicker.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+  ]
+}
