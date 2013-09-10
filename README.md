@@ -10,3 +10,5 @@ The extension automatically:
  * purchases products
  * waits for upgrades
  * and clicks the golden cookie when it appears
+
+You can find the extension [here](https://chrome.google.com/webstore/detail/cookie-clicker-companion/mdckimllkknbcacfmjmpdpfjibjediab).
